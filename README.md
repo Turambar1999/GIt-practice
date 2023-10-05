@@ -1,7 +1,7 @@
 # Comandos de git, linux, vscode
 ## Comandos linux
 
-**cd** comando para ingresar a un directorio.
+**cd** Comando para ingresar a un directorio.
 ```bash
 
 cd    # Ir al directorio de inicio.
@@ -10,7 +10,7 @@ cd .. # Ir al directorio anterior.
 cd "" # El directorio al que quiero entrar.
 
 ```
-**ls** comando para mostrar una lista de los archivos y directorios del directorio donde se encuentra actualmente.
+**ls** Comando para mostrar una lista de los archivos y directorios del directorio donde se encuentra actualmente.
 ```bash
 ls -a  #Para mostrar tanto documentos como directorios ocultos.
 ls -l  #Para mostrar informacion mas detallada sobre los documentos y directorios.
@@ -24,35 +24,48 @@ ls -p  #Para marcar los directorios con una barra diagonal (/).
 ls  *  #Para listar archivos de un tipo especifico se pueden utilizar comodines.
 ls -C  #Para mostrar la lista en columnas.
 ```
-**pwd** comando para mostrar la ruta completa del directorio actual.
+**pwd** Comando para mostrar la ruta completa del directorio actual.
 
-**mkdir** comando para crear un nuevo directorio.
+**mkdir** Comando para crear un nuevo directorio.
 ```bash
 mkdir -p #Para creae directorios aninados (subdirectorios).
 mkdir -m #Para especificar los permisos que deseas establecer al crear el directorio
 mkdir -- #Para indicar que los argumentos que siguen no son opciones.
 ```
-**rmdir** comando para eliminar un directorio vacío.
+**rmdir** Comando para eliminar un directorio vacío solamente elimina los que estan completamente vacios.
 ```bash
 rmdir -p #Para eliminar directorios de forma segura junto con sus directorios padres vacíos si es necesario.
 ```
-mv
-rm
-date
-tree
-htop
-code
-touch
-ip
+
+**rm** Comando para eleminar archivos y directorios de manera irreversible.
+```bash
+rm -d #Para eliminar directorios vacios.
+rm -r #Para eliminar un directorio y su contenido de forma recursiva.
+rm -i #Para que el comando "rm" te pregunte antes de eliminar cada archivo o directorio.
+rm -f #Para eliminar archivos sin que "rm" te solicite confirmacion, junto con el comando sudo tambien permite eliminar directorios o archivos con permisos de super usuario.
+```
+
+**mv** Comando para mover archivos y directorios de una ubicacion a otra en el sistema de archivos.
+```bash
+mv -r #Para mover los directorios de manera recursiva incluyendo todos los archivos y subdirectorios dentro de ellos.
+mv -i #Para que "mv" te pregunte antes de sobrescribir un archivo.
+```
+- rm
+- date
+- tree
+- htop
+- code
+- touch
+- ip
 
 ## Comandos git
-git clone
-git init
-git pull
-git push
-git commit
-git add
-git rm
+- git clone
+- git init
+- git pull
+- git push
+- git commit
+- git add
+- git rm
 
 ## VSCODE
 
