@@ -1,5 +1,6 @@
 # Comandos de git, linux, vscode
 ## Comandos linux
+[blog]: https://www.youtube.com/watch?v=iro4aGaKVZ8&list=RDMM2Q466ZPyNAo&index=12
 
 **_cd_:** Comando para ingresar a un directorio.
 ```bash
@@ -95,6 +96,7 @@ Ctrl + Shift + V
 
 
 ## Sintaxis MarkDown
+Esta es la prueba del link a youtube con markdown [Youtube][blog].
 ```markdown
 *hola*
 **hola en negrita**
