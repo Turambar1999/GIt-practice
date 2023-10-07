@@ -3,12 +3,10 @@
 
 **cd** Comando para ingresar a un directorio.
 ```bash
-
 cd    # Ir al directorio de inicio.
 cd .  # Ir al mismo directorio.
 cd .. # Ir al directorio anterior.
 cd "" # El directorio al que quiero entrar.
-
 ```
 **ls** Comando para mostrar una lista de los archivos y directorios del directorio donde se encuentra actualmente.
 ```bash
